@@ -7,13 +7,13 @@ import time
 # Config
 LLM_API_ENDPOINT = "https://openrouter.ai/api/v1/chat/completions"
 LLM_API_KEY = (
-    "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"
+    "API KEY"
 )
 MODEL_NAME = "mistralai/mistral-small-3.1-24b-instruct:free"
 
 # File Paths
-input_file = r"C:\Users\tirtn\Downloads\DA - Task 1.xlsx"
-output_file = r"C:\Users\tirtn\Downloads\tagged_output.csv"
+input_file = r"INPUT PATH"
+output_file = r"OUTPUT PATH"
 
 # Load Data
 df_task = pd.read_excel(input_file, sheet_name="Task")
